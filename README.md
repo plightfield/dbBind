@@ -8,6 +8,14 @@ React hooks for idb (indexedDB) binding
 
 > 中文说明在下方
 
+## install
+
+`npm install use-idb-bind`
+
+or
+
+`yarn add use-idb-bind`
+
 ## Basic Usage
 
 First of all, you need to place the database dependency declaring component **IdbProvider** at the very top of the **aggregation of components that need to use the database**：
@@ -105,6 +113,14 @@ function Compo(){
 > ! 仅支持 ESM
 
 idb（indexedDB） 的 React hooks 绑定
+
+## 安装
+
+`npm install use-idb-bind`
+
+或者
+
+`yarn add use-idb-bind`
 
 ## 基本使用
 
