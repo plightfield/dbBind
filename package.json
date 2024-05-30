@@ -1,0 +1,31 @@
+{
+  "name": "use-idb-bind",
+  "version": "1.0.0",
+  "description": "React hooks for idb binding\nidb 的React hooks绑定",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "keywords": [
+    "react",
+    "hooks",
+    "indexedDB",
+    "database",
+    "idb",
+    "persistence"
+  ],
+  "author": "plightfield",
+  "readme": "README.md",
+  "license": "MIT",
+  "scripts": {
+    "prepublishOnly": "npm run build",
+    "build": "tsc"
+  },
+  "peerDependencies": {
+    "react": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3"
+  },
+  "dependencies": {
+    "idb": "^8.0.0"
+  }
+}
