@@ -1,6 +1,6 @@
 {
   "name": "use-idb-bind",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "React hooks for idb binding\nidb 的React hooks绑定",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
